@@ -1,0 +1,31 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "name": "Assistente Claude",
+          "summary": "Converse com o Claude pela sua Alexa.",
+          "description": "Faça perguntas ao Claude, assistente de IA da Anthropic, e ouça as respostas no seu dispositivo Alexa.",
+          "examplePhrases": [
+            "Alexa, abrir assistente claude",
+            "Alexa, peça ao assistente claude para explicar a teoria da relatividade",
+            "Alexa, pergunte ao assistente claude qual a capital da Austrália"
+          ],
+          "keywords": ["claude", "ia", "assistente", "perguntas"]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "distributionCountries": ["BR"],
+      "category": "EDUCATION_AND_REFERENCE",
+      "testingInstructions": "Abra a skill e faça qualquer pergunta começando com 'pergunte'."
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:SUA_CONTA:function:assistente-claude"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
