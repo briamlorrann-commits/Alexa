@@ -1,0 +1,13 @@
+{
+  "id": "com.briam.streamhub",
+  "version": "1.0.0",
+  "vendor": "Briam",
+  "type": "web",
+  "main": "index.html",
+  "title": "Stream Hub",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "bgColor": "#0b0d12",
+  "resolution": "1920x1080",
+  "disableBackHistoryAPI": true
+}

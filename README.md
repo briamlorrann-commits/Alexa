@@ -108,3 +108,10 @@ dispositivos Alexa ligados à sua conta de desenvolvedor. Não é preciso public
 pip install -r lambda/requirements.txt pytest
 pytest tests
 ```
+
+---
+
+## Também neste repositório
+
+- [`lg-tv-hub/`](lg-tv-hub/README.md): **Stream Hub**, uma tela inicial para TV LG (webOS) que abre
+  Netflix, Prime Video, Disney+, Paramount+, HBO Max, Crunchyroll e Apple TV com o controle.
